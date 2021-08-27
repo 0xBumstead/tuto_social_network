@@ -4130,6 +4130,75 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0xc66336337a24e513f909b3b25119854dba8385d51307dbc7d31d1b2805e19c7e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostCreated",
+          "type": "event"
+        },
+        "0x20988fe475351e75813672abada1dddb7ac67cbbeb81e61e1160b8329d8cdf1c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostTipped",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xF4Ba6cde3b033D8AB1C1E1f4A8C90e8e782E5087",
+      "transactionHash": "0x0b60bc7595581c01f53e55107c999ea3a66d32243e7f64eb3e9b3ae7623fec4f"
+    },
     "5777": {
       "events": {
         "0xc66336337a24e513f909b3b25119854dba8385d51307dbc7d31d1b2805e19c7e": {
@@ -4201,7 +4270,7 @@
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2021-08-25T20:20:30.466Z",
+  "updatedAt": "2021-08-27T16:12:40.377Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
